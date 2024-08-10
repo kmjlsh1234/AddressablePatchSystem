@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefab
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 42d403c800234014eb85fc6761f69e59
+  m_SerializeEntries:
+  - m_GUID: 77ee1acb13270604cbd3bc032fc152be
+    m_Address: ATTACK Prefab 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 143ad1f4f9fb20842864fc3d26d01143
+    m_Address: DEATH Prefab 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b90bc5e730ceef42b9d4c865fb40050
+    m_Address: IDOL 2Prefab 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e983390295a82b64ca66d604e95bebe6
+    m_Address: IDOL Prefab 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0e632e78e44a33468b1409858e695d4
+    m_Address: KRIT ATTACKPrefab 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c3847a8f7658cb4586090075ed48841
+    m_Address: RUN Prefab 6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3489dcd1f75be4147b816509905453ff
+    m_Address: WALKING Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 656cadce5d58c25448e3b050507d0339, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 37cd659d881b52b419cf4ff8e42c326a, type: 2}
+    - {fileID: 11400000, guid: 20941fdd19e83364e83906fb1cb365b0, type: 2}
