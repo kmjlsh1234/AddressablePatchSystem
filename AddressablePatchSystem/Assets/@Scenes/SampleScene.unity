@@ -2148,12 +2148,10 @@ MonoBehaviour:
   _slider: {fileID: 1184097034}
   _progressText: {fileID: 1190437471}
   _totalSizeText: {fileID: 150709514}
-  prefabLabel:
-    m_LabelString: Prefab
-  spriteLabel:
-    m_LabelString: Sprite
-  soundLabel:
-    m_LabelString: Sound
+  assetLabels:
+  - m_LabelString: Prefab
+  - m_LabelString: Sprite
+  - m_LabelString: Sound
 --- !u!4 &1653287013
 Transform:
   m_ObjectHideFlags: 0

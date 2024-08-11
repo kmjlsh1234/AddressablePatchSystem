@@ -20,21 +20,23 @@ public class AddressableManager : MonoBehaviour
         FAIL,
     }
 
+    
     [SerializeField] private Button _patchButton;
     [SerializeField] private Button _successPopupCloseButton;
     [SerializeField] private Button _failPopupCloseButton;
+
     [SerializeField] private GameObject _patchPopup;
     [SerializeField] private GameObject _downloadPopup;
     [SerializeField] private GameObject _successPopup;
     [SerializeField] private GameObject _failPopup;
 
     [SerializeField] private Slider _slider;
+
     [SerializeField] private TMP_Text _progressText;
     [SerializeField] private TMP_Text _totalSizeText;
 
-    [SerializeField] private AssetLabelReference prefabLabel;
-    [SerializeField] private AssetLabelReference spriteLabel;
-    [SerializeField] private AssetLabelReference soundLabel;
+    [SerializeField] private List<AssetLabelReference> assetLabels = new List<AssetLabelReference>();
+
     private long patchSize;
     private Dictionary<string, long> patchMap = new Dictionary<string, long>();
 
@@ -82,7 +84,11 @@ public class AddressableManager : MonoBehaviour
     #region Patch Check
     IEnumerator CheckUpdateFiles()
     {
-        List<string> labels = new List<string> { prefabLabel.labelString, spriteLabel.labelString, soundLabel.labelString };
+        List<string> labels = new List<string>();
+        foreach(var assetLabel in assetLabels)
+        {
+            labels.Add(assetLabel.labelString);
+        }
         patchSize = default;
         foreach(string label in labels)
         {
@@ -137,9 +143,13 @@ public class AddressableManager : MonoBehaviour
 
     IEnumerator PatchFiles()
     {
-        List<string> labels = new List<string> { prefabLabel.labelString, spriteLabel.labelString, soundLabel.labelString };
+        List<string> labels = new List<string>();
+        foreach (var assetLabel in assetLabels)
+        {
+            labels.Add(assetLabel.labelString);
+        }
         
-        foreach(string label in labels)
+        foreach (string label in labels)
         {
             var handle = Addressables.GetDownloadSizeAsync(label);
 

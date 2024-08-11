@@ -59,6 +59,66 @@ MonoBehaviour:
     m_SerializedLabels:
     - Sprite
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 929046567f573274c9bb720d4a823516
+    m_Address: SkillButton03Blue_disabled
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1d9aba91ae48d0438d62398a29ee852
+    m_Address: SkillButton03Blue_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d8ee7b2d32310b439764bdeb4860312
+    m_Address: SkillButton03Blue_p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ff1789bec36462488736a1c9a25c925
+    m_Address: SkillButton03Cyan_disabled
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdc0b26b8ae0f65449cc96fe4be595f0
+    m_Address: SkillButton03Cyan_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61d5a6bc6f14c37489da66f39c4b796d
+    m_Address: SkillButton03Cyan_p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a04dda88a2d0f44e9f4a31ff92dc4c9
+    m_Address: SkillButton03Green_disabled
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbe8c3a4d2ab9a84fa2df15603c21b60
+    m_Address: SkillButton03Green_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1db0382153840a46844499d4481be29
+    m_Address: SkillButton03Green_p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d731415846651f84b83999e04bd332f4
+    m_Address: SkillButton03Orange_disabled
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 656cadce5d58c25448e3b050507d0339, type: 2}
   m_SchemaSet:
