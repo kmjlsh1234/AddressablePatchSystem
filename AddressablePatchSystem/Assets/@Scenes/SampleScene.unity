@@ -2152,6 +2152,8 @@ MonoBehaviour:
     m_LabelString: Prefab
   spriteLabel:
     m_LabelString: Sprite
+  soundLabel:
+    m_LabelString: Sound
 --- !u!4 &1653287013
 Transform:
   m_ObjectHideFlags: 0

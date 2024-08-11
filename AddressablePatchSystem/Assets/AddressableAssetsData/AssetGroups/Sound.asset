@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sound
+  m_EditorClassIdentifier: 
+  m_GroupName: Sound
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5d55f2bba7492284381167a5bcdebb1e
+  m_SerializeEntries:
+  - m_GUID: 9a14171de7fca8646bd8f916cbd26995
+    m_Address: Dark Empty LOOP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c223ed7c4fec853408f23354df79e4a3
+    m_Address: Draughty House Loop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91543e3854425d14c96ef6fd2a85f4f8
+    m_Address: Heartbeat LOOP 70bpm Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c3e10bc2ac700141a24df2b62c977de
+    m_Address: Heartbeat LOOP 90bpm Elevated
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 016cfed2fcf4ee344bdc6e5ca0d24519
+    m_Address: Heartbeat LOOP 120bpm Stressed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2481b73c5ac7d5e468e37b0219c4b59b
+    m_Address: Heartbeat LOOP 180bpm Terrified
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aba4908eefd99054d919e0c21a589598
+    m_Address: Heartbeat SINGLE 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 019ecff669bb2474d96bc619d4363843
+    m_Address: Heartbeat SINGLE 2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74ad73e078a27a9459ae2cf2166111b9
+    m_Address: Heartbeat SINGLE 3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df07742994131eb43ad5713d2c0889ac
+    m_Address: Heartbeat SINGLE 4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0ab5b091b5399e49965691504b80380
+    m_Address: Heartbeat SINGLE 5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7582076ffb7318439d65fd0d9fa0ae6
+    m_Address: Heavy Rain and Thunder LOOP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a20d526844a25c47be8a1f8dc4f829f
+    m_Address: Heavy Rain from Indoors LOOP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daa2fe3deae2432498263c14d5b44470
+    m_Address: Heavy Rain LOOP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aeff5446d35fe034ab506b0b765decd8
+    m_Address: Low Rumble LOOP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e55b246b9fea92343b13eeccf4c7b301
+    m_Address: Rain on WIndow LOOP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sound
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 656cadce5d58c25448e3b050507d0339, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 879b8f2ce52b21a489eefe4963f82a4a, type: 2}
+    - {fileID: 11400000, guid: 7c7d7e3d09e39814cbce3963fc883ce8, type: 2}

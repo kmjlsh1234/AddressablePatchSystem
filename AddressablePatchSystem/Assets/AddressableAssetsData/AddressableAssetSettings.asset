@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: ff34061ecf0dc7d469393c5f10546097
   m_currentHash:
     serializedVersion: 2
-    Hash: 03bc49f8edb25a6ef6adf92636102c66
+    Hash: f2222b6d56abcba6cf98794ee2a9309e
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -48,6 +48,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 03312dc69d777c244ac284bb12eed622, type: 2}
   - {fileID: 11400000, guid: f01b4918326d81a4bb2b78600115fc12, type: 2}
   - {fileID: 11400000, guid: 3727887a83703b842ac86cf7157e24ff, type: 2}
+  - {fileID: 11400000, guid: db0b49a8b37febc42b86f1a12a1fd29e, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -105,6 +106,7 @@ MonoBehaviour:
     - default
     - Prefab
     - Sprite
+    - Sound
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 5ec98734399c0994484c76f762cb1c6c, type: 2}

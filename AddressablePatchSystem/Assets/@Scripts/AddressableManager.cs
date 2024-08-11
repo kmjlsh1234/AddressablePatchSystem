@@ -34,7 +34,7 @@ public class AddressableManager : MonoBehaviour
 
     [SerializeField] private AssetLabelReference prefabLabel;
     [SerializeField] private AssetLabelReference spriteLabel;
-
+    [SerializeField] private AssetLabelReference soundLabel;
     private long patchSize;
     private Dictionary<string, long> patchMap = new Dictionary<string, long>();
 
@@ -82,7 +82,7 @@ public class AddressableManager : MonoBehaviour
     #region Patch Check
     IEnumerator CheckUpdateFiles()
     {
-        List<string> labels = new List<string> { prefabLabel.labelString, spriteLabel.labelString };
+        List<string> labels = new List<string> { prefabLabel.labelString, spriteLabel.labelString, soundLabel.labelString };
         patchSize = default;
         foreach(string label in labels)
         {
@@ -137,7 +137,7 @@ public class AddressableManager : MonoBehaviour
 
     IEnumerator PatchFiles()
     {
-        List<string> labels = new List<string> { prefabLabel.labelString, spriteLabel.labelString };
+        List<string> labels = new List<string> { prefabLabel.labelString, spriteLabel.labelString, soundLabel.labelString };
         
         foreach(string label in labels)
         {
